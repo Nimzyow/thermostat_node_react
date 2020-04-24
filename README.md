@@ -1,24 +1,34 @@
-# **`Thermostat with Node, Express and React`**
+# Thermostat with Node, Express and React
 
 This was a passion project inspired by a Makers Academy Thermostat challenge done with Jquery, Javascript, HTML and Sinatra.
 
 I decided to challenge myself by completing this challenge with Node.js and Express.js for the backend and React for the front end. React components use hooks and functional components to keep code as clean as possible. Testing was done with Cypress, jest and enzyme.
 
-# `To install dependencies`
+## Table of content
 
-on root of project run:
+- [Installation](#installation)
+- [Creating the database](#creating-the-database)
+- [Testing](#testing)
+- [Running the project](#running-the-project)
+- [Tech stack](#tech-stack)
+
+## Installation
+
+Follow these steps to install required dependencies:
+
+1) on root of project run:
 
 ```
 $ npm install
 ```
 
-cd one directory into thermostat and again run:
+2) cd one directory into thermostat and again run:
 
 ```
 $ npm install
 ```
 
-## `Creating the database`
+## Creating the database
 
 Right, so you will need to setup up the database before running this app, but there is a pre-requisite. You will need to make sure you have sqlite installed in your system. If you don't, please visit https://www.sqlite.org/download.html and download the right version for your system.
 
@@ -53,7 +63,7 @@ const sequelize = new Sequelize({
 
 And that's it for setting up the database! Phew!!
 
-# `To run tests`
+## Testing
 
 For Jest and Enzyme tests:
 cd into thermostat and run:
@@ -69,7 +79,7 @@ Stay in the thermostat directory or cd into it if you have not done so already a
 $ npm run cypress
 ```
 
-# `Running the project`
+## Running the project
 
 You will need to start the server. So in the root of the project run:
 
@@ -84,3 +94,14 @@ $ npm start
 ```
 
 Enjoy :)
+
+## Tech stack
+
+- JavaScript
+- React
+- Node
+- Express
+- Cypress
+- Jest and Enzyme
+- Hooks
+
